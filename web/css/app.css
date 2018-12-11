@@ -1,0 +1,41 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.shift-down {
+	padding-top: 120px;
+}
+.left-sidebar {
+	float: left;
+	display: flex;
+	left: 0;
+	top: 0;
+	width: 200px;
+	background: #343a40;
+	height: 350px;
+	text-align: center;
+}
+.left-sidebar a {
+	color: #fafafa !important;
+}
+.left-sidebar a {
+	color: bisque;
+}
+.left-sidebar ul {
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.left-sidebar li {
+	width: 100%;
+}
+.left-sidebar li:hover {
+	padding: 10px;
+	transition: 0.8s all;
+}
+@media (max-width: 760px) {
+	.left-sidebar {
+		display: none;
+	}
+}
