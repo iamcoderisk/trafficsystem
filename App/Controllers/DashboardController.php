@@ -66,7 +66,7 @@ class DashboardController extends Controller {
 				);
 				$offenses_c->create([Request::get('offense'),Request::get('license_number')]);
 				if($car_details){
-					Redirect::to('/dashboard/view_cars');
+					Redirect::to('/dashboard');
 				}
 			}
 				$admin = new Admin();
@@ -90,7 +90,7 @@ class DashboardController extends Controller {
 					[Request::get('car_name')]
 				);
 				if($car_details){
-					Redirect::to('/dashboard/view_cars');
+					Redirect::to('/dashboard');
 				}
 			}
 				$admin = new Admin();
